@@ -1,11 +1,10 @@
-package tutorial4
+package tutorial4;
 
-class Calc {
-    fun add(a: Int, b: Int): Int {
-        return a + b
+public class Calc {
+    public int add(int a,int b){
+        return a+b;
     }
-
-    fun subtract(a: Int, b: Int): Int {
-        return a + b
+    public int subtract(int a,int b){
+        return a+b;
     }
 }
