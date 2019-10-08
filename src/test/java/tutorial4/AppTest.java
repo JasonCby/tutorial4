@@ -36,5 +36,7 @@ public class AppTest
         int a=10;
         int b=20;
         assertTrue(c.add(a,b)==a+b );
+        assertTrue(c.subtract(a,b)==a-b );
+
     }
 }
